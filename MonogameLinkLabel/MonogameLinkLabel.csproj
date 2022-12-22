@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641">
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\FormElementsLib\FormElementsLib\FormElementsLib.csproj" />
+    <ProjectReference Include="..\..\InternetLib\InternetLib\InternetLib.csproj" />
+    <ProjectReference Include="..\..\MonogameButton\MonogameButton\MonogameButton.csproj" />
+    <ProjectReference Include="..\..\MonogameForm\MonogameForm\MonogameForm.csproj" />
+    <ProjectReference Include="..\..\MonogameLabel\MonogameLabel\MonogameLabel.csproj" />
+    <ProjectReference Include="..\..\MonogameTextBoxLib\MonogameTextBoxLib\MonogameTextBoxLib.csproj" />
+    <ProjectReference Include="..\..\MonoHelper\MonoHelper\MonoHelper.csproj" />
+  </ItemGroup>
+</Project>
